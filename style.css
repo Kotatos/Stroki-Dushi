@@ -1,0 +1,96 @@
+titleimg {
+  display: grid;
+  place-items: center;
+}
+button {
+  border: none;
+  background: black;
+  color: white;
+  margin-left: 50px;
+  padding: 20px 60px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.musicbtn {
+    justify-self: start;
+}
+
+.poemsbtn {
+    justify-self: center;
+}
+
+.otherbtn {
+    justify-self: end;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.img1 {
+  justify-self: start;
+  height: 500px;
+  width: 350px;
+}
+.img2 {
+  justify-self: center;
+  height: 500px;
+  width: 350px;
+}
+.img3 {
+  justify-self: end;
+  height: 225px;
+  width: 225px;
+}
+footer {
+  text-align: center;
+  margin-top: auto;
+}
+.frame1 {
+  align-items: left;
+    border: 1px solid #ccc; /* Рамка */
+    padding: 20px; /* Отступы внутри рамки */
+    margin: 10px 0; /* Отступы между рамками */
+    max-width: 300px; /* Максимальная ширина рамки */
+    background-color: #f9f9f9; /* Фон */
+    border-radius: 8px; /* Закруглённые углы */
+}
+.frame2 {
+  align-items: right;
+    border: 1px solid #ccc; /* Рамка */
+    padding: 20px; /* Отступы внутри рамки */
+    margin: 10px 0; /* Отступы между рамками */
+    max-width: 300px; /* Максимальная ширинtitleimgа рамки */
+    background-color: #f9f9f9; /* Фон */
+    border-radius: 8px; /* Закруглённые углы */
+}
+.frame3 {
+  align-items: right;
+    border: 1px solid #ccc; /* Рамка */
+    padding: 20px; /* Отступы внутри рамки */
+    margin: 10px 0; /* Отступы между рамками */
+    max-width: 300px; /* Максимальная ширинtitleimgа рамки */
+    background-color: #f9f9f9; /* Фон */
+    border-radius: 8px; /* Закруглённые углы */
+}
+    .frame4 {
+  align-items: right;
+    border: 1px solid #ccc; /* Рамка */
+    padding: 20px; /* Отступы внутри рамки */
+    margin: 10px 0; /* Отступы между рамками */
+    max-width: 300px; /* Максимальная ширинtitleimgа рамки */
+    background-color: #f9f9f9; /* Фон */
+    border-radius: 8px; /* Закруглённые углы */
+}
+.frames-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    gap: 20px; /* Расстояние между блоками */
+    margin: 20px 0;
+}
